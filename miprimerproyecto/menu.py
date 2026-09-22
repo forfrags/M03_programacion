@@ -1,0 +1,5 @@
+cabezera = ("*"* 30 + "\n" + "comida".center(30) + "\n" + "*"* 30 + "\n")
+datos = ("nombre".ljust(20) + "precio".rjust(10) + "\n" + "entrecot".ljust(20) + "22,35".rjust(10) + "\n" + "callos".ljust(20) + "15,1".rjust(10)
+        + "\n" + "patatas bravas".ljust(20) + "9,5".rjust(10) )
+print(cabezera)
+print(datos)
